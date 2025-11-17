@@ -153,7 +153,7 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。
+      把推論出的心臟結果放進 3D Slicer 後，看到完整 3D 心臟能自由旋轉、放大、換角度觀察。我用 Segmentations 顯示心臟，再開啟 clipping 平面，旋轉到想要的方向，把心臟剖半來看心腔和分割邊界，檢查效果直覺又好玩。
     </div>
   </div>
 
@@ -169,22 +169,23 @@
         </tr>
         <tr>
           <td rowspan="4" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox1" checked></td>
           <td id='m1'>4</td>
-          <td>Simple baseline - 描述</td>
+          <td>Simple baseline - 完成colab baseline的推論並上傳至競賽網頁
+          </td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"checked></td>
           <td id='m2'>4</td>
-          <td>Medium baseline - 描述</td>
+          <td>Medium baseline - 使用HW2 Medium baseline訓練出來的權重檔推論50筆資料並上傳至競賽網頁
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox3"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox3" checked></td>
           <td id='m3'>2</td>
-          <td>Strong baseline - 描述</td>
+          <td>Strong baseline - 使用HW2 Strong Baseline訓練出來的權重檔對patient0051做推論
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox4" checked></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox4"></td>
           <td id='m4'>-10</td>
           <td>沒有寫100字心得</td>
         </tr>
@@ -203,7 +204,32 @@
   </div>
 
   <!-- ------------------------------------------------>
+  <div class="row hw12 bottomrow">
+    <div class="col-md-12 twenty">
+      <!-- <iframe width="100%" height="560" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
 
+      <table>
+        <tr>
+          <td> Simple Baseline 圖片
+          <img src="H3Simplebaseline.png" width="100%" height="560">
+        </tr>
+        <tr>
+          <td> Medium Baseline 圖片
+          <img src="H3Mediumbaseline.png" width="100%" height="560%">
+        </tr>
+        <tr>
+          <td> Strong Baseline 圖片
+          <table>
+            <tr>
+              <td><img src="strong.png" width="750px"></td>
+              <td><img src="strong_1.png" width="750px"></td>
+              <td><img src="strong_2.png" width="750px"></td>
+            </tr>
+          </table>
+        </tr>
+      </table>
+    </div>
+  </div>
   <!-- ------------------------------------------------>
 
 
